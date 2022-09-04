@@ -9,7 +9,7 @@ import org.junit.runners.Parameterized;
 public class LionDoesHaveManeTest {
     private final String sex;
 
-    public LionDoesHaveManeTest(String sex){
+    public LionDoesHaveManeTest(String sex) {
         this.sex = sex;
     }
 

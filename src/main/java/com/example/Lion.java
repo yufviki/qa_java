@@ -3,7 +3,6 @@ package com.example;
 import java.util.List;
 
 public class Lion {
-
     boolean hasMane;
     private Feline feline;
 
@@ -17,7 +16,7 @@ public class Lion {
         }
     }
 
-    public Lion(Feline feline){
+    public Lion(Feline feline) {
         this.feline = feline;
     }
 

@@ -8,10 +8,9 @@ import java.util.List;
 
 @RunWith(Parameterized.class)
 public class AnimalGetFoodTest {
-
     private final String animalKind;
 
-    public AnimalGetFoodTest(String animalKind){
+    public AnimalGetFoodTest(String animalKind) {
         this.animalKind = animalKind;
     }
 

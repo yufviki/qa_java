@@ -3,7 +3,6 @@ package com.example;
 import java.util.List;
 
 public class AlexLion extends Lion {
-
     public AlexLion() throws Exception {
         super("Самец");
     }

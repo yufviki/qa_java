@@ -8,6 +8,7 @@ public class AlexLionTest {
     @Test
     public void getKittensAlexLionZeroCount() throws Exception {
         AlexLion alexLion = new AlexLion();
+
         Assert.assertEquals(0, alexLion.getKittens());
     }
 

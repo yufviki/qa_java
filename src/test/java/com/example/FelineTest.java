@@ -2,8 +2,6 @@ package com.example;
 
 import org.junit.Assert;
 import org.junit.Test;
-
-
 import java.util.List;
 
 public class FelineTest {
@@ -17,7 +15,7 @@ public class FelineTest {
     }
 
     @Test
-    public void getFamilyCatShowFamily(){
+    public void getFamilyCatShowFamily() {
         Feline feline = new Feline();
         feline.getFamily();
 
@@ -25,7 +23,7 @@ public class FelineTest {
     }
 
     @Test
-    public void getKittensShowCountKittens(){
+    public void getKittensShowCountKittens() {
         Feline feline = new Feline();
         feline.getKittens(10);
 
@@ -33,7 +31,7 @@ public class FelineTest {
     }
 
     @Test
-    public void getKittensShowOneKitten(){
+    public void getKittensShowOneKitten() {
         Feline feline = new Feline();
         feline.getKittens();
 
