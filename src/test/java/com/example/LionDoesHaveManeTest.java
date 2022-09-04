@@ -13,7 +13,7 @@ public class LionDoesHaveManeTest {
         this.sex = sex;
     }
 
-    @Parameterized.Parameters
+    @Parameterized.Parameters(name = "sexLion: {0}")
     public static Object[][] sexData() {
         return new Object[][] {
                 {"Самец"},

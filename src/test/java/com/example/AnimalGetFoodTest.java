@@ -15,7 +15,7 @@ public class AnimalGetFoodTest {
         this.animalKind = animalKind;
     }
 
-    @Parameterized.Parameters
+    @Parameterized.Parameters(name = "animalKind: {0}")
     public static Object[][] animalKindData() {
         return new Object[][] {
                 {"Травоядное"},
